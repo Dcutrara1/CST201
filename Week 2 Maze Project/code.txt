@@ -1,0 +1,88 @@
+void display(node * head)
+{
+	// pointer to move right 
+	node* Rp;
+
+	// pointer to move down 
+	node* Dp = head;
+
+	//for top line formatting
+	cout << "    ";
+	for (int i = 0; i < 10; i++) 
+	{
+		cout << "  " << i << "   ";
+	}
+	cout << "\n\n    ";
+	
+	int i = 0;
+	
+	// loop till node->down is not NULL 
+	while (Dp)
+	{
+		Rp = Dp;
+		for (int k = 0; k < 3; k++)
+		{
+			// loop till node->right is not NULL 
+			while (Rp)
+			{
+				if (k == 0)
+				{
+					// Switch used to determine which square is printed based on number
+					switch (Rp->data)
+					{
+					case 1:
+						cout << "XXX";
+						break;
+					default:
+						cout << "...";
+					}
+
+				}
+				else if (k == 1)
+				{
+					// Switch used to determine which square is printed based on number
+					switch (Rp->data)
+					{
+					case 0:
+						cout << "...";
+						break;
+					case 1:
+						cout << "XXX";
+						break;
+					case 2:
+						cout << ".F.";
+						break;
+					default:
+						cout << ".S.";
+					}
+				}
+				else if (k == 2)
+				{
+					// Switch used to determine which square is printed based on number
+					switch (Rp->data)
+					{
+					case 1:
+						cout << "XXX";
+						break;
+					default:
+						cout << "...";
+					}
+				}
+			}
+			//for line formatting with row numbers
+			if (i >= 10) 
+			{
+				cout << "\n" << i << "  ";
+			}
+			else 
+			{
+				cout << "\n" << i << "   ";
+			}
+			i++;
+
+			Rp = Rp->right;
+		}
+		cout << "\n";
+		Dp = Dp->down;
+	}
+}
