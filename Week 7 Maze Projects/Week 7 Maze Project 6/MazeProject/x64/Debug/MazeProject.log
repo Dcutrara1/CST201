@@ -1,2 +1,87 @@
-﻿  MazeProject.cpp
-  MazeProject.vcxproj -> C:\Users\HP\Documents\CST_201_Assignments\Week 3 Maze Project\x64\Debug\MazeProject.exe
+﻿  Graph.cpp
+c:\users\hp\onedrive - grand canyon university\week 7 maze project 6\mazeproject\graph.cpp(41): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\hp\onedrive - grand canyon university\week 7 maze project 6\mazeproject\graph.cpp(45): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\hp\onedrive - grand canyon university\week 7 maze project 6\mazeproject\graph.cpp(49): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\users\hp\onedrive - grand canyon university\week 7 maze project 6\mazeproject\graph.cpp(53): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\utility(174): warning C4267: 'initializing': conversion from 'size_t' to '_Ty1', possible loss of data
+          with
+          [
+              _Ty1=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xmemory0(879): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<unsigned __int64,_Ty,0>(_Other1 &&,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=Graph::Vertex,
+              _Other1=size_t,
+              _Other2=Graph::Vertex
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xmemory0(881): note: see reference to function template instantiation 'std::pair<const _Kty,_Ty>::pair<unsigned __int64,_Ty,0>(_Other1 &&,_Other2 &&) noexcept(false)' being compiled
+          with
+          [
+              _Kty=int,
+              _Ty=Graph::Vertex,
+              _Other1=size_t,
+              _Other2=Graph::Vertex
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xtree(976): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64,Graph::Vertex>(_Alloc &,_Objty *const ,unsigned __int64 &&,Graph::Vertex &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const int,Graph::Vertex>,std::_Default_allocator_traits<std::allocator<std::pair<const int,Graph::Vertex>>>::void_pointer>>,
+              _Ty=std::pair<const int,Graph::Vertex>,
+              _Objty=std::pair<const int,Graph::Vertex>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xtree(983): note: see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,unsigned __int64,Graph::Vertex>(_Alloc &,_Objty *const ,unsigned __int64 &&,Graph::Vertex &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_Tree_node<std::pair<const int,Graph::Vertex>,std::_Default_allocator_traits<std::allocator<std::pair<const int,Graph::Vertex>>>::void_pointer>>,
+              _Ty=std::pair<const int,Graph::Vertex>,
+              _Objty=std::pair<const int,Graph::Vertex>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xtree(1154): note: see reference to function template instantiation 'std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree_comp_alloc<_Traits>::_Buynode<unsigned __int64,Graph::Vertex>(unsigned __int64 &&,Graph::Vertex &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const int,Graph::Vertex>,
+              _Alloc=std::allocator<std::pair<const int,Graph::Vertex>>,
+              _Traits=std::_Tmap_traits<int,Graph::Vertex,std::less<int>,std::allocator<std::pair<const int,Graph::Vertex>>,false>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.15.26726\include\xtree(1155): note: see reference to function template instantiation 'std::_Tree_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer> *std::_Tree_comp_alloc<_Traits>::_Buynode<unsigned __int64,Graph::Vertex>(unsigned __int64 &&,Graph::Vertex &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const int,Graph::Vertex>,
+              _Alloc=std::allocator<std::pair<const int,Graph::Vertex>>,
+              _Traits=std::_Tmap_traits<int,Graph::Vertex,std::less<int>,std::allocator<std::pair<const int,Graph::Vertex>>,false>
+          ]
+  c:\users\hp\onedrive - grand canyon university\week 7 maze project 6\mazeproject\graph.cpp(55): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,Graph::Vertex,_Pr,_Alloc,false>>::emplace<size_t,Graph::Vertex>(size_t &&,Graph::Vertex &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const int,Graph::Vertex>,
+              _Kty=int,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,Graph::Vertex>>
+          ]
+  c:\users\hp\onedrive - grand canyon university\week 7 maze project 6\mazeproject\graph.cpp(55): note: see reference to function template instantiation 'std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<_Ty>>>,bool> std::_Tree<std::_Tmap_traits<_Kty,Graph::Vertex,_Pr,_Alloc,false>>::emplace<size_t,Graph::Vertex>(size_t &&,Graph::Vertex &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const int,Graph::Vertex>,
+              _Kty=int,
+              _Pr=std::less<int>,
+              _Alloc=std::allocator<std::pair<const int,Graph::Vertex>>
+          ]
+  MazeProject.vcxproj -> C:\Users\HP\OneDrive - Grand Canyon University\Week 7 Maze Project 6\x64\Debug\MazeProject.exe

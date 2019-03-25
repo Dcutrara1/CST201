@@ -153,12 +153,16 @@
   <ItemGroup>
     <ClInclude Include="Controller.h" />
     <ClInclude Include="CreateMaze.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="MazeCell.h" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="ReadFile.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Controller.cpp" />
     <ClCompile Include="CreateMaze.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="MazeCell.cpp" />
     <ClCompile Include="MazeProject.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
